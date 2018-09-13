@@ -1,0 +1,50 @@
+
+An error occurred while loading ./spec/part1_spec.rb.
+Failure/Error: __send__(method, file)
+
+LoadError:
+  cannot load such file -- /home/ec2-user/environment/hw-ruby-intro/spec/spec/part1_spec.rb
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:2034:in `load'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:2034:in `load_file_handling_errors'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1560:in `block in load_spec_files'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1558:in `each'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1558:in `load_spec_files'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:98:in `setup'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:86:in `run'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:71:in `run'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:45:in `invoke'
+# /usr/local/rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/exe/rspec:4:in `<top (required)>'
+# /usr/local/rvm/gems/ruby-2.4.0/bin/rspec:23:in `load'
+# /usr/local/rvm/gems/ruby-2.4.0/bin/rspec:23:in `<main>'
+# /usr/local/rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `eval'
+# /usr/local/rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00026 seconds (files took 0.15193 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+Ruby intro part 1
+  #sum
+    should be defined
+    returns correct sum [20 points]
+    works on the empty array [10 points]
+  #max_2_sum
+    should be defined
+    returns the correct sum [7 points]
+    works even if 2 largest values are the same [3 points]
+    returns zero if array is empty [10 points]
+    returns value of the element if just one element [10 points]
+  #sum_to_n
+    should be defined
+    returns true when any two elements sum to the second argument [30 points]
+    returns false for any single element array [5 points]
+    returns false for an empty array [5 points]
+
+Finished in 0.00598 seconds (files took 0.08532 seconds to load)
+12 examples, 0 failures
+
